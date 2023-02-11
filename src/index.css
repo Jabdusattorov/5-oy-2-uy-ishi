@@ -1,0 +1,23 @@
+#cards {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iVEFk8dO4Tgo/v0/1200x-1.png)
+      center / cover fixed;
+}
+input{
+  outline: none;
+}
+li{
+  font-size: x-large;
+  border: 1px solid transparent;
+  padding: 5px 10px;
+  border-radius: 3px;
+  transition: all 0.2s ease;
+}
+li:hover{
+  border: 1px solid;
+  transform: scale(1.1);
+}
+::-webkit-input-placeholder{
+  color: white !important;
+  font-size: inherit;
+}
