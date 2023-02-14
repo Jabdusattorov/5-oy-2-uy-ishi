@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import img2 from "../../public/images/black-panther-vintage-movie-poster-original-1-sheet-27x41.jpeg"
 import img1 from "../../public/images/black panther 2.webp"
 import "./About.scss"
+import Footer from './../components/Footer';
 
 const About = () => {
   return (
@@ -119,6 +120,7 @@ const About = () => {
 </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
